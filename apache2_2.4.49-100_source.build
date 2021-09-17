@@ -1,8 +1,8 @@
  dpkg-buildpackage -us -uc -ui -i -d -S
 dpkg-buildpackage: info: source package apache2
-dpkg-buildpackage: info: source version 2.4.49-1
+dpkg-buildpackage: info: source version 2.4.49-100
 dpkg-buildpackage: info: source distribution unstable
-dpkg-buildpackage: info: source changed by Yadd <yadd@debian.org>
+dpkg-buildpackage: info: source changed by Package Store <kitsune.solar@gmail.com>
  dpkg-source -i --before-build .
  debian/rules clean
 /bin/sh: 1: cannot open include/ap_mmn.h: No such file
@@ -3027,16 +3027,18 @@ dpkg-source: warning: ignoring deletion of file include/.indent.pro, use --inclu
 dpkg-source: warning: ignoring deletion of file include/util_cookies.h, use --include-removal to override
 dpkg-source: warning: ignoring deletion of file include/apache_noprobes.h, use --include-removal to override
 dpkg-source: warning: ignoring deletion of file include/ap_mmn.h, use --include-removal to override
-dpkg-source: info: building apache2 in apache2_2.4.49-1.debian.tar.xz
-dpkg-source: info: building apache2 in apache2_2.4.49-1.dsc
+dpkg-source: info: building apache2 in apache2_2.4.49-100.debian.tar.xz
+dpkg-source: info: building apache2 in apache2_2.4.49-100.dsc
  dpkg-genbuildinfo --build=source
- dpkg-genchanges --build=source >../apache2_2.4.49-1_source.changes
-dpkg-genchanges: info: including full source code in upload
+ dpkg-genchanges --build=source >../apache2_2.4.49-100_source.changes
+dpkg-genchanges: info: not including original source code in upload
  dpkg-source -i --after-build .
-dpkg-buildpackage: info: full upload (original source is included)
-Now running lintian apache2_2.4.49-1_source.changes ...
+dpkg-buildpackage: info: binary and diff upload (original source NOT included)
+Now running lintian apache2_2.4.49-100_source.changes ...
 warning: running with root privileges is not recommended!
 W: apache2 source: newer-standards-version 4.6.0 (current is 4.5.1)
+W: apache2 source: no-nmu-in-changelog
 W: apache2 source: orig-tarball-missing-upstream-signature apache2_2.4.49.orig.tar.bz2
+W: apache2 source: source-nmu-has-incorrect-version-number 2.4.49-100
 N: 8 hints overridden (1 error, 6 warnings, 1 info); 1 unused override
 Finished running lintian.
