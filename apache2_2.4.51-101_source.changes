@@ -13,14 +13,14 @@ Changes:
    * COMMIT: 'a1e08141187cc309652042c84d22097ffc9af1ab'.
    * UPD: 'apache2ctl' to modern bash syntax.
 Checksums-Sha1:
- f71d749d0b32756c33d13e846caf39320b43edb4 2355 apache2_2.4.51-101.dsc
- 6907f80ffff7e128093d78f98a0f8cc48724230a 888288 apache2_2.4.51-101.debian.tar.xz
- f9e8b58fe671eeb11ff4c52f423429df22044b39 5006 apache2_2.4.51-101_source.buildinfo
+ 9369dec58b3b6462db734b45acb568ce740f54e5 2355 apache2_2.4.51-101.dsc
+ cd5106a4846514bed0db7b4e33cfb4da2aa23cb9 887936 apache2_2.4.51-101.debian.tar.xz
+ 1b88fd11de4779ed6b2d36bc2606383b8f650194 5006 apache2_2.4.51-101_source.buildinfo
 Checksums-Sha256:
- bc3ca65af9db5f45083e85d6acda67d6ade91dc4b06a9ccd057c646c6b2a0c58 2355 apache2_2.4.51-101.dsc
- c9d9669ba9caecdf3bcf4e50f1847ba8e14c442cfe3fa7d13e17c552d0b47f07 888288 apache2_2.4.51-101.debian.tar.xz
- 6fab9ed61956148a45b2c878eb3d0753f39c79b8b83522da33760a5f30b18149 5006 apache2_2.4.51-101_source.buildinfo
+ 1faca1549e56662650ef46ddcfc94024ca2a64991ed032bb39d1f0db771b0089 2355 apache2_2.4.51-101.dsc
+ ea32395cd165cf0addd557080d1b87494f973856ef5b8c757e08019e33447084 887936 apache2_2.4.51-101.debian.tar.xz
+ aac8f0eab4776b4dc1f6355adb6464bd84d29b2ac48b4ce235b92e738d69e7a1 5006 apache2_2.4.51-101_source.buildinfo
 Files:
- e78cc0da8d9db139a817e142dbcd92fc 2355 httpd optional apache2_2.4.51-101.dsc
- 4f654bd18f65d91557789fa24b606acd 888288 httpd optional apache2_2.4.51-101.debian.tar.xz
- 88cbe03b6d48812bc6db6b52465ec24d 5006 httpd optional apache2_2.4.51-101_source.buildinfo
+ ca932f60899609b66f4c7d33b1f2f863 2355 httpd optional apache2_2.4.51-101.dsc
+ af37013bb9f1830b92ef975080a94095 887936 httpd optional apache2_2.4.51-101.debian.tar.xz
+ 6778b6019f2ec2a0a65d3cbacf88731e 5006 httpd optional apache2_2.4.51-101_source.buildinfo
