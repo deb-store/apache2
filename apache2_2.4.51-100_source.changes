@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Tue, 12 Oct 2021 14:00:00 +0000
+Source: apache2
+Architecture: source
+Version: 2.4.51-100
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Changed-By: Package Store <kitsune.solar@gmail.com>
+Changes:
+ apache2 (2.4.51-100) unstable; urgency=medium
+ .
+   * COMMIT: 'a1e08141187cc309652042c84d22097ffc9af1ab'.
+Checksums-Sha1:
+ d9509ab32527c7edb8e03bfd4a569ca08321dee7 2355 apache2_2.4.51-100.dsc
+ d7e4e6afe9fc23c91b1f39c703a15ffc10cd0e4e 887136 apache2_2.4.51-100.debian.tar.xz
+ 2b2e1ebc1a8566c827659decde0073f81459ea55 5006 apache2_2.4.51-100_source.buildinfo
+Checksums-Sha256:
+ be38ff3141734ed04ccf8cdee9ad0f5b7bfa0e602cc6d63e68c70580700be48a 2355 apache2_2.4.51-100.dsc
+ b402cc415fb6900c168a9944c5b74a3d11d9f2311cff65ed9a1b40ed7d03028b 887136 apache2_2.4.51-100.debian.tar.xz
+ 34e4d55543b2a2457c07cf2628e1311830954e346012d84e607bc84899d1950e 5006 apache2_2.4.51-100_source.buildinfo
+Files:
+ 352f67b144f0255af0636a02839e57e5 2355 httpd optional apache2_2.4.51-100.dsc
+ 0c78be9c4dadd473be11360935962309 887136 httpd optional apache2_2.4.51-100.debian.tar.xz
+ 5a3fcee17855b12f6018310f3ecb839c 5006 httpd optional apache2_2.4.51-100_source.buildinfo
