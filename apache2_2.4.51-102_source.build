@@ -1,6 +1,6 @@
  dpkg-buildpackage -us -uc -ui -i -d -S
 dpkg-buildpackage: info: source package apache2
-dpkg-buildpackage: info: source version 2.4.51-101
+dpkg-buildpackage: info: source version 2.4.51-102
 dpkg-buildpackage: info: source distribution unstable
 dpkg-buildpackage: info: source changed by Package Store <kitsune.solar@gmail.com>
  dpkg-source -i --before-build .
@@ -3140,14 +3140,14 @@ dpkg-source: warning: ignoring deletion of file server/mpm/winnt/nt_eventlog.c, 
 dpkg-source: warning: ignoring deletion of directory server/mpm/netware
 dpkg-source: warning: ignoring deletion of file server/mpm/netware/mpm_default.h, use --include-removal to override
 dpkg-source: warning: ignoring deletion of file server/mpm/netware/mpm_netware.c, use --include-removal to override
-dpkg-source: info: building apache2 in apache2_2.4.51-101.debian.tar.xz
-dpkg-source: info: building apache2 in apache2_2.4.51-101.dsc
+dpkg-source: info: building apache2 in apache2_2.4.51-102.debian.tar.xz
+dpkg-source: info: building apache2 in apache2_2.4.51-102.dsc
  dpkg-genbuildinfo --build=source
- dpkg-genchanges --build=source >../apache2_2.4.51-101_source.changes
+ dpkg-genchanges --build=source >../apache2_2.4.51-102_source.changes
 dpkg-genchanges: info: not including original source code in upload
  dpkg-source -i --after-build .
 dpkg-buildpackage: info: binary and diff upload (original source NOT included)
-Now running lintian apache2_2.4.51-101_source.changes ...
+Now running lintian apache2_2.4.51-102_source.changes ...
 warning: running with root privileges is not recommended!
 E: apache2 source: source-is-missing test/modules/http2/htdocs/test1/apache.org-files/async-ads.js line length is 900 characters (>512)
 E: apache2 source: source-is-missing test/modules/http2/htdocs/test1/apache.org-files/defaulten.js line length is 518 characters (>512)
@@ -3155,6 +3155,6 @@ E: apache2 source: source-is-missing test/modules/http2/htdocs/test1/apache.org-
 W: apache2 source: newer-standards-version 4.6.0 (current is 4.5.1)
 W: apache2 source: no-nmu-in-changelog
 W: apache2 source: orig-tarball-missing-upstream-signature apache2_2.4.51.orig.tar.bz2
-W: apache2 source: source-nmu-has-incorrect-version-number 2.4.51-101
+W: apache2 source: source-nmu-has-incorrect-version-number 2.4.51-102
 N: 8 hints overridden (1 error, 6 warnings, 1 info); 1 unused override
 Finished running lintian.

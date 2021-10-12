@@ -2,7 +2,7 @@ Format: 3.0 (quilt)
 Source: apache2
 Binary: apache2, apache2-data, apache2-bin, apache2-utils, apache2-suexec-pristine, apache2-suexec-custom, apache2-doc, apache2-dev, apache2-ssl-dev, libapache2-mod-md, libapache2-mod-proxy-uwsgi
 Architecture: any all
-Version: 2.4.51-101
+Version: 2.4.51-102
 Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Uploaders: Stefan Fritsch <sf@debian.org>, Arno Töll <arno@debian.org>, Ondřej Surý <ondrej@debian.org>, Yadd <yadd@debian.org>
 Homepage: https://httpd.apache.org/
@@ -27,10 +27,10 @@ Package-List:
  libapache2-mod-proxy-uwsgi deb oldlibs optional arch=any
 Checksums-Sha1:
  d8ae02630f836d7cf60e24f4676e633518f16e2b 7653609 apache2_2.4.51.orig.tar.bz2
- cd5106a4846514bed0db7b4e33cfb4da2aa23cb9 887936 apache2_2.4.51-101.debian.tar.xz
+ 06fc8e840026ce477160902cacb74c90d0825bbe 888012 apache2_2.4.51-102.debian.tar.xz
 Checksums-Sha256:
  20e01d81fecf077690a4439e3969a9b22a09a8d43c525356e863407741b838f4 7653609 apache2_2.4.51.orig.tar.bz2
- ea32395cd165cf0addd557080d1b87494f973856ef5b8c757e08019e33447084 887936 apache2_2.4.51-101.debian.tar.xz
+ 404abdb46003940b5d9e7557800566f802873306fb7caf4ac3a1957301e7d111 888012 apache2_2.4.51-102.debian.tar.xz
 Files:
  d2793fc1c8cb8ba355cee877d1f2d46d 7653609 apache2_2.4.51.orig.tar.bz2
- af37013bb9f1830b92ef975080a94095 887936 apache2_2.4.51-101.debian.tar.xz
+ 823f626b18903cd200df752479949d78 888012 apache2_2.4.51-102.debian.tar.xz

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 12 Oct 2021 13:00:00 +0000
+Source: apache2
+Architecture: source
+Version: 2.4.51-102
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Changed-By: Package Store <kitsune.solar@gmail.com>
+Changes:
+ apache2 (2.4.51-102) unstable; urgency=medium
+ .
+   * COMMIT: 'a1e08141187cc309652042c84d22097ffc9af1ab'.
+   * UPD: 'ask-for-passphrase' to modern bash syntax.
+Checksums-Sha1:
+ 3b7c8bc7a661a8679143a7a6ca1cff5ac75a6a2b 2355 apache2_2.4.51-102.dsc
+ 06fc8e840026ce477160902cacb74c90d0825bbe 888012 apache2_2.4.51-102.debian.tar.xz
+ 1863f430c2e36b4dd1b3847738095ebe450bdbc5 5006 apache2_2.4.51-102_source.buildinfo
+Checksums-Sha256:
+ 3c1f45dcdb99e1560066cb365c815a92ae41d110a3fedbbd0c1fc9f0099fcc36 2355 apache2_2.4.51-102.dsc
+ 404abdb46003940b5d9e7557800566f802873306fb7caf4ac3a1957301e7d111 888012 apache2_2.4.51-102.debian.tar.xz
+ d4fb6ca32df5205c7e6b540287594a94ff51b0c0cf215271e77cc11d047a5ab6 5006 apache2_2.4.51-102_source.buildinfo
+Files:
+ d3c44c10d3f11762123a125b20ccc4d0 2355 httpd optional apache2_2.4.51-102.dsc
+ 823f626b18903cd200df752479949d78 888012 httpd optional apache2_2.4.51-102.debian.tar.xz
+ 9eda374ccd5e1dbd8ab071961b8e60fd 5006 httpd optional apache2_2.4.51-102_source.buildinfo
