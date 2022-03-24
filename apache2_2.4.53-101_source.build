@@ -1,0 +1,321 @@
+ dpkg-buildpackage -us -uc -ui -i -d -S
+dpkg-buildpackage: info: source package apache2
+dpkg-buildpackage: info: source version 2.4.53-101
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by Package Store <mail@z17.dev>
+ dpkg-source -i --before-build .
+dpkg-source: info: using patch list from debian/patches/series
+dpkg-source: info: applying customize_apxs.patch
+ debian/rules clean
+dh clean
+   dh_clean
+ dpkg-source -i -b .
+dpkg-source: warning: upstream signing key but no upstream tarball signature
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building apache2 using existing ./apache2_2.4.53.orig.tar.xz
+dpkg-source: info: using patch list from debian/patches/series
+dpkg-source: warning: ignoring deletion of file httpd.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file configure, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file httpd.spec, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file libhttpd.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file libhttpd.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file httpd.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file server/gen_test_char.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file server/gen_test_char.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory docs/manual/style/lang
+dpkg-source: warning: ignoring deletion of directory docs/manual/style/xsl
+dpkg-source: warning: ignoring deletion of directory docs/manual/style/xsl/util
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_expires.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_mime_magic.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_mime_magic.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_setenvif.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_env.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_usertrack.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_expires.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_env.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_version.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_remoteip.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_usertrack.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_remoteip.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_unique_id.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_cern_meta.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_headers.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_headers.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_setenvif.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_version.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_ident.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_ident.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_unique_id.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/metadata/mod_cern_meta.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/core/mod_macro.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/core/mod_macro.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/core/mod_watchdog.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/core/mod_watchdog.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/core/test/Makefile, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cache/mod_socache_shmcb.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cache/mod_socache_shmcb.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cache/mod_cache.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cache/mod_socache_memcache.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cache/mod_cache_socache.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cache/mod_file_cache.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cache/mod_socache_dbm.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cache/mod_cache_socache.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cache/mod_socache_dc.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cache/mod_socache_dbm.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cache/mod_cache_disk.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cache/mod_file_cache.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cache/mod_socache_redis.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cache/mod_socache_redis.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cache/mod_socache_memcache.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cache/mod_cache.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cache/mod_socache_dc.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cache/mod_cache_disk.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_data.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_ratelimit.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_include.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_request.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_buffer.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_filter.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_xml2enc.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_include.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_substitute.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_brotli.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_xml2enc.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_ratelimit.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_reqtimeout.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_reqtimeout.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_filter.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_substitute.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_deflate.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_request.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_data.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_reflector.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_ext_filter.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_sed.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_deflate.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_charset_lite.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_buffer.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_reflector.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_brotli.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_sed.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_proxy_html.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_charset_lite.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_ext_filter.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/filters/mod_proxy_html.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/slotmem/mod_slotmem_plain.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/slotmem/mod_slotmem_shm.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/slotmem/mod_slotmem_plain.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/slotmem/mod_slotmem_shm.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/generators/mod_asis.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/generators/mod_info.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/generators/mod_status.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/generators/mod_cgi.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/generators/mod_asis.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/generators/mod_cgi.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/generators/mod_status.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/generators/mod_autoindex.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/generators/mod_info.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/generators/mod_autoindex.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/http/mod_mime.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/http/mod_mime.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/mappers/mod_imagemap.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/mappers/mod_alias.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/mappers/mod_rewrite.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/mappers/mod_speling.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/mappers/mod_vhost_alias.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/mappers/mod_userdir.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/mappers/mod_negotiation.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/mappers/mod_vhost_alias.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/mappers/mod_rewrite.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/mappers/mod_imagemap.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/mappers/mod_speling.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/mappers/mod_actions.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/mappers/mod_alias.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/mappers/mod_dir.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/mappers/mod_userdir.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/mappers/mod_dir.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/mappers/mod_actions.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/mappers/mod_negotiation.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/lua/mod_lua.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/lua/mod_lua.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/ldap/mod_ldap.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/ldap/mod_ldap.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cluster/mod_heartmonitor.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cluster/mod_heartbeat.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cluster/mod_heartbeat.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/cluster/mod_heartmonitor.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/loggers/mod_log_forensic.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/loggers/mod_logio.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/loggers/mod_log_debug.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/loggers/mod_log_config.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/loggers/mod_logio.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/loggers/mod_log_config.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/loggers/mod_log_debug.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/loggers/mod_log_forensic.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/md/mod_md.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/md/mod_md.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/examples/mod_example_ipc.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/examples/mod_example_hooks.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/examples/mod_case_filter_in.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/examples/mod_example_hooks.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/examples/mod_case_filter_in.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/examples/mod_case_filter.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/examples/mod_case_filter.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/examples/mod_example_ipc.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/database/mod_dbd.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/database/mod_dbd.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_ftp.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_scgi.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_uwsgi.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_connect.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_fcgi.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_fcgi.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_ajp.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_express.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_balancer.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_http.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_wstunnel.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_connect.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_balancer.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_wstunnel.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_hcheck.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_scgi.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_express.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_ftp.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_http.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_ajp.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_uwsgi.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/mod_proxy_hcheck.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/balancers/mod_lbmethod_bytraffic.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/balancers/mod_lbmethod_bybusyness.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/balancers/mod_lbmethod_byrequests.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/balancers/mod_lbmethod_bybusyness.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/balancers/mod_lbmethod_byrequests.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/balancers/mod_lbmethod_heartbeat.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/balancers/mod_lbmethod_bytraffic.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/proxy/balancers/mod_lbmethod_heartbeat.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/ssl/mod_ssl.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/ssl/mod_ssl.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/session/mod_session_dbd.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/session/mod_session_cookie.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/session/mod_session_crypto.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/session/mod_session_crypto.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/session/mod_session.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/session/mod_session_dbd.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/session/mod_session_cookie.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/session/mod_session.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/http2/mod_http2.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/http2/mod_http2.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/http2/mod_proxy_http2.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/http2/mod_proxy_http2.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/dav/fs/mod_dav_fs.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/dav/fs/mod_dav_fs.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/dav/lock/mod_dav_lock.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/dav/lock/mod_dav_lock.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/dav/main/mod_dav.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/dav/main/mod_dav.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/debugging/mod_dumpio.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/debugging/mod_bucketeer.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/debugging/mod_bucketeer.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/debugging/mod_dumpio.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authn_socache.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_allowmethods.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_allowmethods.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authz_dbm.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_auth_basic.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authz_core.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_auth_digest.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_auth_basic.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authn_file.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authn_anon.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_access_compat.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authnz_fcgi.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authz_dbd.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authz_host.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authz_core.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_auth_form.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authn_dbd.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authn_dbm.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_access_compat.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authnz_ldap.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authnz_ldap.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authn_dbm.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authn_core.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authz_groupfile.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authz_owner.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authz_dbm.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authz_owner.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_auth_digest.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authn_core.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authn_dbd.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authz_groupfile.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authn_file.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authz_user.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authz_user.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authn_anon.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authz_host.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authnz_fcgi.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authn_socache.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_authz_dbd.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/aaa/mod_auth_form.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/arch/win32/mod_isapi.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/arch/win32/mod_isapi.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/echo/mod_echo.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules/echo/mod_echo.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory test/modules/md/data/store_migrate/1.0/sample1/tmp
+dpkg-source: warning: ignoring deletion of directory test/modules/md/data/store_migrate/1.0/sample1/staging
+dpkg-source: warning: ignoring deletion of directory test/modules/md/data/store_migrate/1.0/sample1/challenges
+dpkg-source: warning: ignoring deletion of file build/find_apu.m4, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file build/config.sub, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file build/config.guess, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file build/find_apr.m4, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file build/ltmain.sh, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file build/apr_common.m4, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file build/PrintPath, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/fcgistarter.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/fcgistarter.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/abs.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/htcacheclean.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/htdbm.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/htdbm.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/logresolve.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/logresolve.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/htdigest.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/htpasswd.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/httxt2dbm.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/httxt2dbm.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/ab.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/ab.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/rotatelogs.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/abs.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/htpasswd.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/htcacheclean.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/rotatelogs.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/htdigest.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/win32/wintty.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/win32/ApacheMonitor.mak, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/win32/ApacheMonitor.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file support/win32/wintty.dep, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/ap_config_auto.h.in, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory changes-entries
+dpkg-source: info: building apache2 in apache2_2.4.53-101.debian.tar.xz
+dpkg-source: info: building apache2 in apache2_2.4.53-101.dsc
+ dpkg-genbuildinfo --build=source
+ dpkg-genchanges --build=source >../apache2_2.4.53-101_source.changes
+dpkg-genchanges: info: not including original source code in upload
+ dpkg-source -i --after-build .
+dpkg-source: info: unapplying customize_apxs.patch
+dpkg-buildpackage: info: binary and diff upload (original source NOT included)
+Now running lintian apache2_2.4.53-101_source.changes ...
+warning: running with root privileges is not recommended!
+E: apache2 source: source-is-missing docs/manual/style/scripts/prettify.js line length is 11085 characters (>512)
+W: apache2 source: mismatched-override source-is-missing docs/manual/style/scripts/prettify.js
+W: apache2 source: mismatched-override very-long-line-length-in-source-file test/modules/http2/htdocs/test1/*
+W: apache2 source: newer-standards-version 4.6.0 (current is 4.5.1)
+W: apache2 source: no-nmu-in-changelog
+W: apache2 source: orig-tarball-missing-upstream-signature apache2_2.4.53.orig.tar.xz
+W: apache2 source: source-nmu-has-incorrect-version-number 2.4.53-101
+N: 7 hints overridden (6 warnings, 1 info); 3 unused overrides
+Finished running lintian.

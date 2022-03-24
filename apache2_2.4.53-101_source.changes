@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Fri, 25 Mar 2022 01:36:00 +0300
+Source: apache2
+Architecture: source
+Version: 2.4.53-101
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Changed-By: Package Store <mail@z17.dev>
+Changes:
+ apache2 (2.4.53-101) unstable; urgency=medium
+ .
+   * ADD: Package source.
+Checksums-Sha1:
+ a1b82726fd850b4970fee1e6a41333aa0f930ffd 2366 apache2_2.4.53-101.dsc
+ 7a3ba440cc5aa27e3a8e0977950ce0765ea888b2 899452 apache2_2.4.53-101.debian.tar.xz
+ a5b30adc15444f271faf0f2991b898264bbb9506 5095 apache2_2.4.53-101_source.buildinfo
+Checksums-Sha256:
+ 99d24d2ecbe4361cc04764fd01735c2e64b3f9ab56b808305fb170540a060f91 2366 apache2_2.4.53-101.dsc
+ 162d7d8277f39ccec97a868f4111ce4de303b9af608e30c40549591cc4557e79 899452 apache2_2.4.53-101.debian.tar.xz
+ ccc8a2946b6678c55a6a2bf979adeb87c2b7cb70a1cb073b67edf79ce79b76d7 5095 apache2_2.4.53-101_source.buildinfo
+Files:
+ 19fbddacaf1e8ccdbbeab38582c309b7 2366 httpd optional apache2_2.4.53-101.dsc
+ 57fec66ac028a7e969fcf8e08183c899 899452 httpd optional apache2_2.4.53-101.debian.tar.xz
+ beeb26e9ab7b8e9a2950a67f5782c1e6 5095 httpd optional apache2_2.4.53-101_source.buildinfo
